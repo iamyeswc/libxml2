@@ -1,4 +1,4 @@
-module github.com/lestrrat-go/libxml2
+module github.com/iamyeswc/libxml2
 
 go 1.21
 
