@@ -2134,6 +2134,7 @@ func XMLSchemaParse(buf []byte, options ...option.Interface) (uintptr, error) {
 	if docctx == nil {
 		return 0, errors.New("error creating doc parser")
 	}
+	defer C.xmlFreeParserCtxt(docctx)
 
 	var curi *C.char
 	if uri != "" {
@@ -2152,6 +2153,7 @@ func XMLSchemaParse(buf []byte, options ...option.Interface) (uintptr, error) {
 		return 0, errors.Errorf("failed to read schema from memory: %v",
 			xmlCtxtLastErrorRaw(uintptr(unsafe.Pointer(docctx))))
 	}
+	defer C.xmlFreeDoc(doc)
 
 	parserCtx := C.xmlSchemaNewDocParserCtxt((*C.xmlDoc)(unsafe.Pointer(doc)))
 	if parserCtx == nil {
