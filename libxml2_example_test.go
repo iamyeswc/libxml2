@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/lestrrat-go/libxml2"
-	"github.com/lestrrat-go/libxml2/parser"
-	"github.com/lestrrat-go/libxml2/types"
-	"github.com/lestrrat-go/libxml2/xpath"
+	"github.com/iamyeswc/libxml2"
+	"github.com/iamyeswc/libxml2/parser"
+	"github.com/iamyeswc/libxml2/types"
+	"github.com/iamyeswc/libxml2/xpath"
 )
 
 //nolint:testableexamples

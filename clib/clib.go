@@ -340,8 +340,8 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/lestrrat-go/libxml2/internal/debug"
-	"github.com/lestrrat-go/libxml2/internal/option"
+	"github.com/iamyeswc/libxml2/internal/debug"
+	"github.com/iamyeswc/libxml2/internal/option"
 	"github.com/pkg/errors"
 )
 

@@ -1,0 +1,22 @@
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.8.4
+## explicit; go 1.20
+github.com/stretchr/testify/assert
+# gopkg.in/xmlpath.v1 v1.0.0-20140413065638-a146725ea6e7
+## explicit
+gopkg.in/xmlpath.v1
+# gopkg.in/yaml.v3 v3.0.1
+## explicit
+gopkg.in/yaml.v3
+# launchpad.net/gocheck v0.0.0-20140225173054-000000000087
+## explicit
+# launchpad.net/xmlpath v0.0.0-20130614043138-000000000004
+## explicit
